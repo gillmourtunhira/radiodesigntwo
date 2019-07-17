@@ -7,7 +7,7 @@ html,body{
     height: auto;
 }
 .top_section{
-	background: #526488;
+	background: #7c2b24;
 	padding: 15px 0px;
 }
 .wrapper_top{
@@ -178,7 +178,7 @@ html,body{
 	padding: 10px;
 }
 .left_content{
-	background: red;
+	/*background: red;*/
 	width: 100%;
 	height: 500px;
 }
