@@ -2,8 +2,12 @@ html,body{
 	box-sizing: border-box;
 	margin: 0 auto;
 }
+.logo img{
+    width: 40%;
+    height: auto;
+}
 .top_section{
-	background: #3c3c3b;
+	background: #526488;
 	padding: 15px 0px;
 }
 .wrapper_top{
@@ -65,12 +69,14 @@ html,body{
 .listen_button{
 	background: #dfdfdf;
     font-size: 30px;
-    padding: 15px;
+    background: url(../img/play_button.png) 20px 20px no-repeat #f0f0f0;
+	padding: 19px 5px 15px 60px;
     border-radius: 5px 0px 0px 5px;
     color: #2d2c2c;
+    border: 3px solid #7c2b24;
 }
 .catch_up{
-	background: #3c3c3b;
+	background: #7c2b24;
 	font-size: 30px;
 	padding: 5px;
 	border-radius: 0px 5px 5px 0px;
@@ -79,7 +85,49 @@ html,body{
 }
 .listen_live ul {
     margin-top: 50px;
+    padding-left: 0px;
 }
+.container_input{
+	margin-bottom: 10px;
+}
+.container_input label {
+    width: 26%;
+    color: #ececec;
+    font-size: 130%;
+    float: left;
+    padding-top: 5px;
+}
+.container_input .password_in{
+	width: 50%;
+}
+.container_input input{
+	margin: 0;
+	background: #f1f1f1;
+	font-size: 130%;
+	padding: 5px;
+	outline: none;
+	border: none;
+	width: 74%;
+	box-sizing: border-box;
+	color: #555;
+}
+.container_input button{
+	background: #fd0;
+	color: rgba(0, 0, 0, 0.8);
+	outline: none;
+	border: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 100%;
+	font-weight: bold;
+	padding: 8px 0;
+	width: 20%;
+	float: right;
+	margin: 0;
+	cursor: pointer;
+}
+
 .sign_up_label{
 	color: #ececec;
 	font-size:22px;
@@ -98,10 +146,10 @@ html,body{
 .sign_up input{
 	font-size: 18px;
 	margin-top: 3px;
-	float: right;
+	/*float: right;*/
 }
 .sign_up button{
-	background: #fd0;
+	/*background: #fd0;
 	color: rgba(0, 0, 0, 0.8);
 	border-radius: 3px;
 	font-size: 116%;
@@ -109,7 +157,7 @@ html,body{
 	padding: 6px 0;
 	width: 24%;
 	height: 30px;
-	border:0px;
+	border:0px;*/
 }
 ._menu {
 
@@ -118,7 +166,7 @@ html,body{
 
 }
 .alt_container {
-    background: #7d4185;
+    background: #7c2b24;
 }
 .middle_part{
 	display: grid;
@@ -142,6 +190,9 @@ html,body{
 .post_image {
     position: relative;
 }
+.post_image img {
+    width: 100%;
+}
 .post_title{
 	display: grid;
 	width: 100%;
@@ -149,9 +200,9 @@ html,body{
 	padding: 5px;
 }
 .post_desc {
-    background: #7d4185;
+    background: #466aaa;
     position: absolute;
-	bottom: -12.5%;
+	bottom: -7.5%;
 	right: 0;
 	left: 18px;
 	width: 95%;
