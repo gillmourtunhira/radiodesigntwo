@@ -321,9 +321,104 @@ html,body{
 
 /*Right Sidebar CSS*/
 .right_content{
-	background: green;
+	/*background: green;*/
 	width: 100%;
 	/*height: 500px;*/
+}
+
+.on_air{
+	display: grid;
+	width: 100%;
+	margin: 0 auto;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 0px;
+}
+.on_air ul{
+	padding-left: 0px;
+	margin-top: 0px;
+}
+.on_air ul li{
+	list-style: none;
+}
+.on_air_thumb{
+
+}
+.on_air_thumb img{
+	width: 100%;
+	height: auto;
+	border: 1px solid #466aaa;
+}
+.on_air_tag h2{
+	background: #466aaa;
+	/*width: 50%;*/
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.on_air_tag strong, time{
+	font-size: 14px;
+	color: #fff;
+	max-height: 62px;
+	display: block;
+	margin-bottom: 5px;
+	overflow: hidden;
+	font-family: "Segoe UI",Roboto;
+	font-weight: bold;
+}
+.presenter_details{
+	margin-bottom: 10px;
+}
+.presenter_details h2{
+	font-family: "Segoe UI",Roboto;
+	font-weight: normal;
+	color: #555555;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.presenter_details span{
+	font-family: "Segoe UI",Roboto;
+	font-weight: normal;
+	color: #555555;
+}
+.button{
+	border-radius: 3px;
+	font-family: neris, helvetica, arial, sans-serif;
+	font-size: 100%;
+	line-height: 14px;
+	padding: 6px 10px 4px 10px;
+	    padding-right: 10px;
+	color: #666;
+	outline: none;
+	cursor: pointer;
+	background: none;
+	display: inline-block;
+	margin: 0;
+	    margin-right: 0px;
+	text-decoration: none;
+	border: 1px solid #7c2b24;
+}
+.button:hover{
+	background: #7c2b24;
+	color: white;
+}
+
+.now_playing h2 {
+    background: #466aaa;
+    padding: 5px;
+}
+.now_playing a{
+	text-decoration: none;
+	color: #fff;
+	font-family: "Segoe UI",Roboto;
+	font-weight: normal;
+	vertical-align: super;
+}
+.now_playing i{
+	background: url(../img/music.png) 0px 2px no-repeat;
+	width: 24px;
+	height: 29px;
+	display: inline-block;
+	padding-right: 10px;
 }
 /*End Right Sidebar CSS*/
 
